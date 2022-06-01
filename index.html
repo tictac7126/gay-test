@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Are you gay quiz</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+	<script src="https://kit.fontawesome.com/de13d23169.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+		<div id="logo">
+			🏳️‍🌈 Are you gay quiz
+		</div>
+		<ul id="other-links">
+			<li>
+				<a href="#">
+					<i class="fa-solid fa-ellipsis"></i>
+					Other Quizzes
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class="fa-solid fa-question"></i>
+					Feedback
+				</a>
+			</li>
+		</ul>
+	</header>
+	<div id="content">
+		<div id="question-container">
+			<div id="title-container">
+				<h1>Question 1.</h1>
+				<br>
+				Are you gay?
+			</div>
+			<ul id="answers">
+				<li onclick="showYes()" answer="yes">
+					<i class="fa-solid fa-check"></i>
+					Yes
+				</li>
+				<li onclick="showNo()" answer="no">
+					<i class="fa-solid fa-xmark"></i>
+					No
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="overlay yes hidden">
+		<h1>YOU ARE GAY</h1>
+		<p>Our high-accuracy quiz has determined that you are <b>100%</b> gay!</p>
+		<button onclick="reset()" id="reset">Unhappy? Retake Test <i class="fa-solid fa-arrow-rotate-right"></i></button>
+	</div>
+	<div class="overlay no hidden">
+		<h1>YOU ARE <b>NOT</b> GAY</h1>
+		<p>Our high-accuracy quiz has determined that you are <b>100%</b> not gay!</p>
+		<button onclick="reset()" id="reset">Unhappy? Retake Test <i class="fa-solid fa-arrow-rotate-right"></i></button>
+	</div>
+  <script src="script.js"></script>
+</body>
+</html>
