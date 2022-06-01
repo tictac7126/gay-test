@@ -6,6 +6,7 @@
 	--red: rgb(228, 119, 119);
 	--green: rgb(114, 218, 114);
 	--headerheight: 10vh;
+	--bounciness: 1.5; /* default is 1.5 */
 	--curve: cubic-bezier(.3,.7,.4,1.5);
 }
 body {
