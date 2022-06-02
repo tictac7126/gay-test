@@ -1,2 +1,2 @@
-# are-you-gay-test
-this is a joke.
+# Are you gay? test
+joke
