@@ -1,1 +1,1 @@
-# 100% Accurate
+100% Accurate
