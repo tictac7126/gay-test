@@ -1,2 +1,1 @@
-# Are you gay? test
-joke
+# 100% Accurate
